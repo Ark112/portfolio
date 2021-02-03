@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
+    <title>cafe hitotoki...</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!--    <script src="js/jquery.min.js"></script>-->
+    <!--    <script src="js/lightbox.min.js"></script>-->
+    <script src="js/main.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-expand-md navbar-light py-0 color__navi">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1 class="font-weight-bold color__logo">
+                        <img src="img/examlogo.png">cafe hitotoki...
+                    </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="スマートフォン用ナビゲーション">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="toggler__txt"></span>
+                </button>
+                <div class="navbar-collapse collapse flex-column align-items-end pb-3 pb-md-0" id="navbarContent">
+                    <ul class="nav__main navbar-nav order-md-2 mt-3">
+                        <li class="nav-item "><a class="nav-link px-4" href="#">concept</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" id="navbarDropdownMenuLink" class="nav-link dropdown-toggle px-4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">menu</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">morning</a>
+                                <a class="dropdown-item" href="#">lunch</a>
+                                <a class="dropdown-item" href="#">drink</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link px-4" href="#">access</a></li>
+                        <li class="nav-item"><a class="nav-link px-4 c" href="#"><button id="button">contact</button></a></li>
+                        <form action="" id="form">
+                            <p><textarea id="textarea" name="teaxtarea" cols=50 rows=10 maxlength="500"></textarea></p>
+                            <p><input id="submit" type="submit" valu="送信"></p>
+                        </form>
+
+                    </ul>
+                    <ul class="nav__sub navbar-nav navbar-right order-md-1 align-items-center d-block d-md-flex">
+                        <li class="nav-item"><a class="nav-link px-4 px-md-0" href=""><i class="fas fa-caret-right d-none d-md-inline"></i>twitter</a></li>
+                        <li class="nav-item"><a class="nav-link px-4 px-md-4" href=""><i class="fas fa-caret-right d-none d-md-inline"></i>instagram</a></li>
+                        <li class="nav-item"><a class="nav-link btn-warning btn-rounded px-5 color__btn mx-1 mx-md-0" href="">recruit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main id="main">
+
+        <div class="container clearfix">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!--                   activeじゃないと画像が表示されない-->
+                    <div class="flex">
+                        <div class="carousel-item active">
+                            <img div id="d-block w-100" src="img/cafe.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/pancake.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/cream.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article>
+            <div class="effect-fade container">
+                <h1 data-aos="fade-up">concept</h1>
+                <h2><img class="d-block w-50" src="img/cafe_inside.jpg" alt="店内"></h2>
+                <p>本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文</p>
+            </div>
+
+            <section class="effect-fade container">
+               <div id="first">
+                <h1>menu</h1>
+                </div>
+                <h3>プリン</h3>
+                <div id="second">
+                <div class="prin">
+                    <img src="img/p_img.jpeg" class="fadein w-50">
+                    <caption>￥400 ※+￥100でフルーツ大盛</caption>
+                </div>
+                <section>
+                    <h3>ドーナツ</h3>
+                    <div class="donut">
+                        <img src="img/donut.jpg" class="fadein w-50">
+                        <caption>￥300</caption>
+                    </div>
+                </section>
+                </div>
+            </section>
+
+            <section class="effect-fade container">
+                <h1>access</h1>
+                <p>本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文</p>
+                <h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6483.356024397462!2d139.69702389386248!3d35.6603039204079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca9246f9cd1%3A0xeb4e3969eb7f995e!2z44Ot44Kk44Ok44Or44Ks44O844OH44Oz44Kr44OV44KnIOa4i-iwtw!5e0!3m2!1sja!2sjp!4v1598494142603!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></h2>
+            </section>
+        </article>
+
+    </main>
+
+    <footer class="bg-warning">
+        <p class="m-0 py-2 text-center">
+            <small>Copyright 2020 &copy; cafe hitotoki... Corporation.All</small>
+        </p>
+    </footer>
+
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+<!--<!DOCTYPE html>-->
+
+<!--<html lang="ja">-->
+
+<!--
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ヒトトキ</title>
+-->
+<!-- BootstrapのCSS読み込み -->
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+<!-- jQuery読み込み -->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+<!-- BootstrapのJS読み込み -->
+<!--
+    <script src="js/bootstrap.min.js"></script>
+</head>
+-->
+
+<!--
+<body>
+<h1>cafe hitotoki...</h1>
+    <div class="container-fluid">
+            <header class="container-fluid">
+                <nav class="navbar navbar-expand-am row bg-dark list-unstyled text-center d-flex justify-content-between">
+                    <li class="btn-dark p-3 pr-5 pl-5 col-4"><a href="#" class="text-white">concept</a></li>
+                    <li class="btn-dark p-3 pr-5 pl-5 col-4"><a href="#" class="text-white">menu</a></li>
+                    <li class="btn-dark p-3 pr-5 pl-5 col-4"><a href="#" class="text-white">access</a></li>
+                    <li class="btn-dark p-3 pr-5 pl-5 col-4"><a href="#" class="text-white">contact</a></li>
+                </nav>
+            </header>
+
+                <div>
+                    <img src="img/cafe.jpg" alt="toppage" class="w-100 h-auto">
+                </div>
+                <h1 class="mainlogo"><img src="" alt=""></h1>
+        
+        <main>
+            <section>
+
+            </section>
+        </main>
+    </div>
+</body></html>
+-->

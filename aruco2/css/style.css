@@ -1,0 +1,245 @@
+@charset "utf-8";
+@import url(reset.css);
+
+* {
+    width: 100% position: static;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url(../img/1x/back_img.jpeg);
+}
+
+.img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 130px;
+}
+
+.mv {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    height: 60;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul.contents {
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+ul.contents li {
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul.contents a {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffcccc;
+    text-align: center;
+    text-decoration: none;
+}
+
+.flex wrap {
+    margin-left: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contain {
+    width: 963px;
+    margin: 0 auto;
+}
+
+.header-top {
+    background-color: #ffcccc;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: bold;
+    text-align: center;
+    line-height: 2.0;
+    margin: 20px 0;
+
+}
+
+.time {
+    text-align: center;
+}
+
+p {
+    font-style: bold;
+    text-align: center;
+    line-height: 2.0em;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.special_movie {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+
+/* .li {
+    list-style: none;
+    display: inline;
+} */
+
+.lip {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex eye {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aruon {
+    margin: 50px 0px;
+}
+
+h1 img {
+    width: 300px;
+    margin: 0 110px;
+}
+
+.lip_price {
+    text-align: left;
+}
+
+.figure {
+    text-align: left;
+}
+
+.mascara_price {
+    text-align: left;
+}
+
+.mascara {
+    flex-direction: row-reverse;
+}
+
+.figure_mascara {
+    text-align: right;
+    /* flex-direction: row-reverse; */
+}
+
+.movie {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcccc;
+    padding: 10px 0;
+}
+
+.items_im {
+    margin: 30px 0;
+}
+
+.items_eye {
+    margin: 30px 20px;
+}
+
+.movie_contents {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.onlinesite {
+    overflow: hidden;
+    width: 57%;
+    margin: 0 auto;
+}
+
+
+
+/*全デバイス共通のCSS（スマホ向け）*/
+
+@media screen and (max-width: 480px) {
+
+    * {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 img {
+        width: 100%;
+    }
+
+    .dir {
+        margin: 0 auto;
+    }
+
+    .flex {
+        float: none;
+    }
+
+
+}
+
+
+/*幅768px以上に適用されるCSS（タブレットサイズ以上）*/
+/*@media screen and (min-width:768px)*/
+
+/*幅990px以上に適用されるCSS（PCサイズ以上）*/
+@media screen and (min-width:900px) {
+    .aruon {
+        margin-left: 50px;
+}
+    
+}
+
+
+/* 
+.lipmascara{
+text-align: right;
+}
+
+.lipeye{
+text-align: left;
+} */

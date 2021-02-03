@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+
+#form {
+    display: none;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.carousel-item active img {
+    margin-right: 0px;
+}
+
+#box {
+  overflow: scroll;
+  height: 200px;
+  border: 3px solid gray;
+}
+#contents {
+  height: 500px;
+}
+
+.fadein {
+  opacity : 0;
+  transform : translate(0, 100px);
+  transition : all 1s;
+}
+ 
+.fadein.active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+#second{
+    display: flex;
+}
+
+
+/*
+h3,img{
+    width: 370px;
+    display: flex;
+    
+}
+*/
+
+/*
+section{
+    width: 300px;
+}
+*/
+
+
+/*
+.clearfix:after{
+    display: block;
+    content: "";
+    clear: both;    
+}
+*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 img{
+    width: 50px;
+    height: 50px;
+}
+
+div.img {
+    height: 300px;
+    overflow: hidden;
+
+}
+
+/*
+    .d-block w-100{
+        height: 100%
+}
+
+.d-block w-100{
+    position: absolute;
+    width: 100%;
+}
+    
+    
+    #blockskip a {
+      position: absolute;
+      top: 0;
+      left: -9999px;
+      display: block;
+      text-align: center;
+  }
+ 
+  #blockskip a:focus {
+      z-index: 11000;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .btn-rounded{
+      background-color: greenyellow;
+      border-radius : 1000px;
+  }
+ 
+ 
+  .color__btn {
+      background-color: #80CBC4;
+      color: #212121;
+  }
+  .color__navi {
+      background-color: #fff;
+  }
+  .color__logo {
+      color: #212121;
+  }
+  .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+      background-color: transparent;
+      border-bottom : 3px solid #303F9F;
+  }
+ 
+  .toggler__txt{
+      display : block;
+      font-size : 0.5em;
+  }
+  .nav__main{
+      font-size : 1.2em;
+  }
+  .nav__sub{
+      font-size : 0.8em;
+  }
+   
+*/
+
+
+
+@media (max-width: 767.98px) {
+
+    .carousel,
+    .carousel .item,
+    .carousel .item-mask,
+    .carousel-inner .item .item-mask img {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .carousel,
+    .carousel .item,
+    .carousel .item-mask,
+    .carousel-inner .item .item-mask img {
+        height: 400px;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .carousel,
+    .carousel .item,
+    .carousel .item-mask,
+    .carousel-inner .item .item-mask img {
+        height: 500px;
+    }
+}
+
+
+
+.nav__main {
+    font-size: 1em;
+}
+
+.nav__sub {
+    font-size: 1em;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link,
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+    background-color: #efefef;
+    border-bottom: none;
+}
